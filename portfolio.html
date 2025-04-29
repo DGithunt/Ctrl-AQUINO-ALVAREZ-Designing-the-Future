@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dieve & Andre | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style.css" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #1f1c2c, #928dab);
+      color: #fff;
+    }
+    .navbar, .footer {
+      background-color: #1f1c2c !important;
+    }
+    section {
+      padding: 60px 0;
+    }
+    h1, h2, h5, .navbar-brand {
+      color: #f8f9fa !important;
+    }
+    .lead, .card-text {
+      color: #dcdcdc;
+    }
+    .card {
+      background-color: #2e2b3a;
+      border: none;
+      border-radius: 1rem;
+    }
+    .card img {
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Dieve & Andre</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Portfolio Section -->
+  <section class="container" data-aos="fade-up">
+    <div class="text-center mb-5">
+      <h1 class="fw-bold">Our Works</h1>
+      <p class="lead">A showcase of what we’ve built and created together</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="image/unadostress.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Personal Website</h5>
+            <p class="card-text">A fully responsive personal website built with HTML, CSS, and Bootstrap. Designed for showcasing individual skills and projects.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="image/dostressuna.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">UI Design Samples</h5>
+            <p class="card-text">Creative mockups and design concepts for both mobile and desktop applications. Focused on clean layout and user experience.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100">
+          <img src="image/tressunados.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Code Experiments</h5>
+            <p class="card-text">Mini projects and code snippets to explore new technologies like JavaScript animations, CSS effects, and responsive design.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Footer -->
+    <footer class="footer text-white text-center py-4">
+      <div class="container">
+        <p>Follow us on:</p>
+        <a href="#" class="text-light mx-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-light mx-2"><i class="bi bi-github"></i></a>
+        <a href="#" class="text-light mx-2"><i class="bi bi-envelope-fill"></i></a>
+        <p class="mt-3 mb-0">© 2025 Dieve & Andre</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>
